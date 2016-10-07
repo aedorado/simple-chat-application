@@ -4,14 +4,12 @@ To run the application, you must have jdk-7 installed(and path for java must be 
 Migrate to the master directory containing `Server.java` & `Client.java` files.
 Open the terminal and type the following commands:
 
-  `javac Server.java`
+  `javac Server.java` - to compile the Server.java file.
   
-  `javac Client.java`
-  
-The above 2 commands compile the Server and Cliend file.
-
-Then type the following commands:
+  `javac Client.java` - to compile the Client.java file.
   
   `java Server` - to run the server.
 
   `java Client` - to run the client.
+
+Now the client and the server can communicate.
